@@ -6,9 +6,9 @@
     font-size:16px;
 }
 
-header, 
+header,
 main {
-    
+   
     margin:0 auto;
     width:80%;
 }
@@ -52,9 +52,9 @@ caption {
 }
 
 img {
-    
+   
     width:100%; max-width:4.53125rem;
-    
+   
 }
 </style>
     <head>
@@ -78,10 +78,11 @@ img {
                 Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
         </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
-                    <colgroup>
+                   
                       <thead>
                         <tr>
-                    <td col span ="2">&nbsp;</td></colgroup>
+                    <td colspan ="2">&ensp;</td>
+                   
                     <th scope="col">Name</th>
                     <th scope="col">Mass<br>(10<sup>24</sup> kg)</th>
                     <th scope="col">Diameter<br>(km)</th>
@@ -97,10 +98,10 @@ img {
                   </thead>
                   <tbody>
      <tr>
-                      
-                      <th rowspan="5">Terrestial Planets</th>
+                     
+                      <th rowspan="5" colspan ="2">Terrestial Planets</th>
 
-      </tr>               
+      </tr>              
                     <tr>
                       <th>Mercury</th>
                       <td>0.330</td>
@@ -116,7 +117,7 @@ img {
                       <td><img src="images/mercury.jpg" alt="Mercury"></td>
                     </tr>
                     <tr>
-                      <th>Venus</th>
+                      <th>VVenus</th>
                       <td>4.87</td>
                       <td>12,104</td>
                       <td>5243</td>
@@ -155,9 +156,13 @@ img {
                         Planet </td>
                       <td><img src="images/mars.jpg" alt="Mars"></td>
                     </tr>
-      
-                    <tr>   
-                       <th rowspan="4" colspan ="1">Jovian Planets</th>
+     
+           
+               <tr>    
+                      <th rowspan="5" colspan ="1">Jovian Planets</th>
+                     
+               </tr>      
+                    <tr>  
                       <th rowspan="2">Gas Giants</th>
                       <th>Jupiter</th>
                       <td>1898</td>
@@ -212,8 +217,8 @@ img {
                       <td></td>
                       <td><img src="images/neptune.jpg" alt="Neptune"></td>
                     </tr>
-                    <tr> 
-                      <th rowspan="2">Dwarf Planets</th>
+                    <tr>
+                      <th colspan ="2">Dwarf Planets</th>
                       <th>Pluto</th>
                       <td>0.0146</td>
                       <td>2,370</td>
@@ -232,7 +237,7 @@ img {
                     </tr>
 
                   </tbody>
-                </table>                   
+                </table>                  
            </main>        
     </body>
 </html>
