@@ -145,45 +145,85 @@ font-size: .75rem;
 
 /* Link Styling */
 
-a {}
+a {
+outline: none;
+}
 
 a:link,
-a:visited {}
+a:visited {
+color: #33658A;
+text-decoration: none;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+color: #33658A;
+text-decoration: none;
+}
 
 
 
 
 /* List Styling */
 
-ul {}
+ul {
+margin-top: 1rem;
+margin-bottom: 1rem;
+list-style-type:square;
+}
 
-ol {}
+ol {
+margin-bottom: 1rem;
+margin-top: 1rem;
+list-style-type:lower-alpha;
+}
 
-.long-list a:hover {}
+.long-list a:hover {
+text-transform: uppercase;
+}
 
 
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+margin-top: 0.25rem;
+padding-left: 0rem;
 
-nav a {}
+}
+
+nav a {
+display: inline-block;
+width: 100%;
+line-height: 3;
+text-align: center;
+text-decoration: none;
+font-size: 1.125rem;
+margin-top: 1.5rem;
+border: 0.063rem solid; 
+border-color: #33658A;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+color: #33658A;
+background-color: #FFF;
+}
 
-nav a:active {}
+nav a:active {
+color: #FFF;
+background-color: #000;
+}
 
 
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+text-align: center;
+}
 
 
 
