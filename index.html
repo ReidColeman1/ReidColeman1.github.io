@@ -1,107 +1,441 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html>
+
+
+<head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        <!-- Use a meta tag to designate yourself as the author of the page -->
-        
-        
-        <!-- Give your page a title. -->
-        
-        
-        <!-- Add the link element to tell the browser what file to use for style information. -->
-        
-        
-    </head>
-    <body>
-        <header>
-             
-            
-            <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. -->
-            
-            
-        </header>   
-        
-        
-        <!-- Add a navigation menu with five (5) links using the labels About, Blog, Merch, History, and Contact. Use the "#" symbol for your href values. -->
-        
-        
-        <main>
-            
-            
-            <!-- Add a level 2 heading -->
-            
-            
-            <!-- Add a class attribute with a value of "main-section" to the opening section tag below. -->
-            
-            
-            <section>
-                <article>
-                    
-                    
-                    <!-- Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag. -->
-                    
-                    
-                    <!-- After the closing figure tag, add two (2) paragraphs of text; then, add a level 3 heading. -->
-                                        
-                    
-                    <!-- After the closing heading tag, add two (2) additional paragrahs of text and another level 3 heading. -->
-                                        
-                    
-                    <!-- After the closing heading tag, add three (3) paragraphs of text. -->
-                    
-                    
-                    <!-- Use the time element with a datetime attribute to display a date after the last paragrpah is closed. -->
-                    
-                    
-                    <!-- Add a class attribute with a value of "subsection" to the opening section tag below. -->
-                    
-                    
-                    <section>
-                        
-                        
-                        <!-- Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption. -->
-                        
-                    </section>
-                    
-                    
-                    <!-- Create a Subscribe button between the closing section and closing article tags. -->
+        <meta name="viewport" content="width=device-width, initial- scale=1.0">
+        <meta name="author" content="Reid Coleman">      
+        <title>Alcatra Tongue Chislic</title>
+        <link rel="stylesheet" href="style.css">
+       
+        <style>
 
+html {
+    font-size:16px;
+ 
+}
+
+table {
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+    width:100%;
+    max-width:1920px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+td {
+  border-bottom: 1px solid #33658A;
+   text-align: left;
+  max-width: 40%;
+  padding-left: 1rem;
+}
+th {
+text-align: left;
+border-right: 1px solid #33658A;
+        padding-right: 2rem;
+}
                 
-                </article>
-                <aside>
-                    
-                    
-                    <!-- Add a level 3 heading, followed by an image and a paragraph. --> 
-                    
-                    
-                    <!-- Add another level 3 heading, followed by an image and a paragraph. -->
-                    
-                    
-                    <!-- You guesed it, add an additional level three heading, followed by an image and a paragraph -->
-                    
-                    
-                    <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a cirle is:
+.hidden {
+        border-style: hidden;
+                }
+                
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
 
-                        &#x26AB;  
+/* Layout */
 
-                    -->
-                    
-                    
-                </aside>
-            </section>
-        </main>
-        <footer>
-            
-            
-            <!-- Add a paragraph with the copyright and a link to an email address. --->
-            
-            
-            <!-- Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons. -->
-            
-            
-        </footer>
-    </body>
+main {
+    overflow:auto;
+    min-width:45rem;
+   
+}
+.fig-1 {
+    
+    width:15%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+}
+
+.fig-2 {
+    
+    width:15%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+}
+.fig-3 {
+    
+    width:15%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+}
+
+.fig-4 {
+    
+    width:15%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+}
+.fig-5 {
+    
+    width:15%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+}
+
+.fig-6 {
+    
+    width:15%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+}
+                .fig-7 {
+    
+    width:15%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+}
+
+#myDiv {
+  transform: rotate(10deg);
+}
+
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+     padding: .5rem;
+}
+
+
+@font-face {
+font-family:Coolfont;
+    src: url(../fonts/coolfont-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    }
+   
+@font-face {
+font-family:Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+           
+@font-face {
+font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+.button {
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #008CBA;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  width: 110px;
+
+ 
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+
+.normal-button {
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #008CBA;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 3.25rem;
+
+  width: 210px;
+        
+  font-family:Josefinslab, Arial, serif;
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+ 
+
+.button span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+ 
+
+.button span:after {
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+ 
+
+.button:hover span {
+
+  padding-right: 25px;
+
+}
+
+ 
+
+.button:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+
+}
+
+html{
+       font-family:Montserrat, Arial, sans-serif;    
+            }
+           
+h
+{
+text-align: center;
+    font-size: 3.25rem;
+    margin: 1.125rem;
+    letter-spacing: .125rem;
+    font-family:Josefinslab, Arial, serif;
+    
+}
+
+h1 {
+
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: .125rem;
+    font-family:Josefinslab, Arial, serif;
+}
+
+
+h2 {
+    font-size: .5rem;
+    text-align: left;
+    font-family:Josefinslab, Arial, serif;
+}
+
+
+
+
+p {
+    font-size: .75rem;
+    word-space: .125rem;
+    letter-spacing: .031rem;
+    margin: 1.125rem;
+    max-width: 95%;
+    text-align: left;
+    text-indent: none;
+    font-family:Montserrat, Arial, sans-serif; 
+}
+
+p2 {
+    font-size: .4rem;
+    word-space: .125rem;
+    letter-spacing: .031rem;
+    margin: 1.125rem;
+    width: 100%;    
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: .125rem;
+  padding: 0;
+  overflow: hidden;
+    text-align: center;
+text-decoration: none;
+font-size: 1.125rem;
+margin-top: 1.5rem;
+border-top: 0.063rem solid;
+border-bottom: 0.063rem solid;
+style=“list-style-type":disc
+}
+
+li {
+  float: left;
+  text-decoration: none;
+ 
+}
+
+li a {
+  display: block;
+  padding: .5rem;
+  align: center;
+  text-decoration: none;
+  color: black;
+  
+}
+
+nav a {
+display: block;
+width: 100%;
+text-align: center;
+text-decoration: none;
+font-size: 1.125rem;
+margin-top: 1.5rem;
+border-top: 0.063rem solid;
+border-bottom: 0.063rem solid;
+}
+
+footer {
+text-align: c;
+}
+
+img {
+   
+    width:100%; max-width:4.53125rem;
+   
+}
+
+
+
+        </style>
+<body>
+
+<table>
+<h><div id="myDiv">Tofu <button class="normal-button" style="vertical-align:middle"><span>Charcoal </span></button> Unicorns
+</div></h>
+
+<ul>
+            <li style="padding-left:1em"><a href="#">About </a></li>
+            <li style="padding-left:2.75em"><a href="#"><s><div id="myDiv">Blog</div></s></a></li>
+            <li style="padding-left:2.75em"><a href="#">Merch</a></li>
+            <li style="padding-left:2.75em"><a href="#">History</a></li>
+            <li style="padding-left:2.75em"><a href="#">Contact</a></li>          
+        </ul>
+
+<h1><strong>
+Spicy Jalapeno Bacon</strong>
+</h1>
+        <th rowspan ="8"><figure class="fig-7"><img src="images/stag.jpg" alt="Number 7"></figure>Ipsum dolor amet picanha tongue short ribs pork chop kevin beef ribs doner short loin buffalo spare ribs bresaola. Rump bacon pancetta capicola boudin porchetta. Burgdoggen flank ball tip salami, buffalo ribeye porchetta chuck filet mignon pork loin jowl pork shoulder. Pancetta short loin cupim sausage rump, porchetta sirloin bacon chicken ball tip spare ribs. Tongue shoulder filet mignon biltong flank capicola brisket pastrami beef beef ribs ribeye turducken. Flank beef sausage brisket, pork loin cow meatball pork belly. Ham pancetta turducken pork belly short ribs shank.<br>
+<br>
+Ribeye porchetta bacon frankfurter tenderloin leberkas beef pig shankle capicola chislic salami pork loin. Chicken corned beef kielbasa salami, pancetta fatback pastrami buffalo doner short loin. Ground round doner chicken leberkas bresaola beef ribs, ball tip bacon biltong pancetta pork belly. Capicola ground round jerky porchetta sausage pork loin, flank ham hock biltong strip steak burgdoggen tongue pork chop.<br>
+
+<h1><strong>Bresaola landjaeger ham</strong></h1>
+
+Meatball ball tip pig biltong cow drumstick cupim ribeye strip steak. Turducken spare ribs boudin pastrami turkey. Beef rump pork belly burgdoggen, doner capicola tenderloin pastrami prosciutto tongue pork. Bresaola pork belly chicken turducken, boudin tail tenderloin chislic shank tri-tip.
+Tongue fatback andouille ribeye strip steak pancetta, bacon beef ribs t-bone frankfurter bresaola doner rump tail. Chuck chicken sausage buffalo alcatra spare ribs fatback prosciutto venison picanha chislic ham kevin ham hock. Strip steak tenderloin filet mignon pancetta, brisket prosciutto pork chop. Ham filet mignon boudin meatloaf, kevin chicken prosciutto jowl t-bone flank.<br>
+<br>
+<h1><strong>Turducken pork chop</strong></h1>
+                
+Jerky ball tip venison corned beef sausage pork beef pork belly frankfurter pastrami. Meatball chislic hamburger ham hock pork andouille chicken, pastrami brisket pork loin buffalo drumstick kielbasa filet mignon. Tenderloin meatball pastrami andouille turducken. Ham hock tri-tip swine frankfurter strip steak corned beef pork chop buffalo short loin pork biltong shoulder.
+Pig salami chuck, fatback rump landjaeger jerky kielbasa biltong swine jowl filet mignon tenderloin corned beef. Short ribs pork loin chuck ball tip, pork chop shoulder cupim. Sirloin drumstick alcatra spare ribs cow. Picanha corned beef venison, chuck rump shoulder shank ball tip filet mignon buffalo. Doner short ribs porchetta, shoulder flank jowl pork loin ribeye kevin biltong. Leberkas chislic capicola swine frankfurter sausage short ribs corned beef prosciutto burgdoggen shank meatball tail. Strip steak shoulder beef ribs pig short ribs chislic.
+
+<p align="right"><time datetime = "09-24-2020">24 September 2020 </time> </p>
+<figure class="fig-1">
+<img src="images/eren-30s.jpg" alt="Number 1">
+</figure>
+<figure class="fig-2">
+<img src="images/in-nomino.jpg" alt="Number 2">
+</figure>
+<figure class="fig-3">
+<img src="images/industrial-city-2.jpg" alt="Number 3">
+</figure>
+<figure class="fig-4">
+<img src="images/industrial-city.jpg" alt="Number 4">
+</figure>
+<figure class="fig-5">
+<img src="images/industrial.jpg" alt="Number 5">
+</figure>
+<figure class="fig-6">
+<img src="images/routine.jpg " alt="Number 6">
+</figure>
+
+</th>
+<tr>
+<td>
+<h2>Alcatra chicken</h2>
+
+<p2>Ball tip cow buffalo, leberkas tail pastrami frankfurter ham. Pancetta pork chop turducken, t-bone ball tip boudin fatback pork pig. Bresaola tongue shoulder chuck drumstick cupim tri-tip andouille prosciutto pig tenderloin meatloaf strip steak cow.<br><strong>...</strong></p2></td></tr>
+
+<tr>
+<td><h2>Jerky shankle</h2>
+<p2>Brisket porchetta sausage ham hock, biltong t-bone hamburger prosciutto rump chuck sirloin drumstick cow. Drumstick pork loin prosciutto burgdoggen biltong, shankle rump short loin t-bone filet mignon meatloaf kevin chuck. Pork belly meatball landjaeger cupim.<br><strong>...</strong></p2></td></tr>
+
+<tr>
+<td><h2>Tongue swine turducken</h2>
+<p2>Chuck, jerky tenderloin short ribs doner pork belly salami. Turducken fatback venison, ham hock sausage pork loin beef ribs short loin pastrami strip steak cupim ribeye jowl. Frankfurter landjaeger spare ribs, jerky meatloaf turkey chuck short loin shank. Ham hock turducken bresaola corned beef.<br><strong>...</strong></p2></td></tr>
+ 
+ <tr>
+<td><h2><strong>Alcatra chicken</strong></h2>
+
+<p2>Ball tip cow buffalo, leberkas tail pastrami frankfurter ham. Pancetta pork chop turducken, t-bone ball tip boudin fatback pork pig. Bresaola tongue shoulder chuck drumstick cupim tri-tip andouille prosciutto pig tenderloin meatloaf strip steak cow.<br><strong>...</strong></p2></td></tr>
+
+<tr>
+<td><h2>Jerky shankle</h2>
+<p2>Brisket porchetta sausage ham hock, biltong t-bone hamburger prosciutto rump chuck sirloin drumstick cow. Drumstick pork loin prosciutto burgdoggen biltong, shankle rump short loin t-bone filet mignon meatloaf kevin chuck. Pork belly meatball landjaeger cupim.<br><strong>...</strong></p2></td></tr>
+
+<tr>
+<td><h2>Tongue swine turducken</h2>
+<p2>Chuck, jerky tenderloin short ribs doner pork belly salami. Turducken fatback venison, ham hock sausage pork loin beef ribs short loin pastrami strip steak cupim ribeye jowl. Frankfurter landjaeger spare ribs, jerky meatloaf turkey chuck short loin shank. Ham hock turducken bresaola corned beef.<br><strong>...</strong></p2></td></tr>
+
+<tr>
+<td class ="hidden">
+<button class="button" style="vertical-align:middle"><span>Subscribe </span></button></td>
+</tr>
+
+
+
+</table>
+<footer>
+          
+       <div style="float: left"><p class ="copyright">
+                  &copy; 2020 Sustainable Crucifix Swag</div>
+                  
+                  <div style="float: right"><p style="text-align: right">“Stag”, “Industrial”, “Routine”, “Eren 30’s”, “In Nomino”,<br> “Industrial City”, <strong>and</strong> “Industrial City II” <strong>by</strong>Sasha Aim <strong>licensed</strong> under CC BY_NC_SA2.0</p></div>
+</footer>
+
+</body>
+
 </html>
